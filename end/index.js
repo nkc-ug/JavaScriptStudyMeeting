@@ -22,11 +22,11 @@ function clickKey(number) {
   dispHtml.innerText = dispNum;
 }
 
-function clickKey(number) {
-  let dispObj = document.getElementById("disp");
-  if (number === 999) {
-    dispObj.innerText = 0;
-    return;
-  }
-  dispObj.innerText = Number(dispObj.innerText) * 10 + number;
-}
+// function clickKey(number) {
+//   let dispObj = document.getElementById("disp");
+//   if (number === 999) {
+//     dispObj.innerText = 0;
+//     return;
+//   }
+//   dispObj.innerText = Number(dispObj.innerText) * 10 + number;
+// }
